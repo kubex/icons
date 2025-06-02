@@ -1,0 +1,28 @@
+{
+  "name": "icons",
+  "version": "1.0.0",
+  "description": "SVG and font icon assets for the Kubex library. Centralised, optimised, and ready to use across projects.",
+  "keywords": [],
+  "homepage": "https://github.com/kubex/icons#readme",
+  "bugs": {
+    "url": "https://github.com/kubex/icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubex/icons.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && mkdirp dist && node ./build/generate-fonts.js"
+  },
+  "dependencies": {
+    "fantasticon": "^3.0.0"
+  }
+}

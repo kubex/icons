@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.ttf?10d822a8cf6872ad24aa653400908234") format("truetype"),
+url("./icons.woff2?10d822a8cf6872ad24aa653400908234") format("woff2"),
+url("./icons.woff?10d822a8cf6872ad24aa653400908234") format("woff");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-paypal:before {
+    content: "\f101";
+}
