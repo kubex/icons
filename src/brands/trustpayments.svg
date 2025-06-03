@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="130.2669 185.3088 37.1 22.715" width="37.1px" height="22.715px">
+  <defs>
+    <linearGradient id="linear-gradient" x1="34.98" y1="7.2" x2="10.23" y2="21.43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#58595b"/>
+      <stop offset="0.47" stop-color="#555658"/>
+      <stop offset="0.8" stop-color="#4c4d4e"/>
+      <stop offset="1" stop-color="#434445"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="m5.71,19.11l-4.28-2.47c-1.9-1.1-1.9-3.85,0-4.94l12.84-7.41,4.28-2.47,2.14-1.23c1.33-.77,2.96-.77,4.29,0l2.14,1.23-4.28,2.47,4.28,2.47-4.28,2.47-4.28-2.47-12.84,7.41,4.28,2.47-4.28,2.47Z" style="fill: rgb(45, 157, 118);" transform="matrix(1, 0, 0, 1, 130.26193237304685, 185.29624938964844)"/>
+  <path class="cls-1" d="m22.83,14.16l8.56-4.94-4.28-2.47,4.28-2.47,4.29,2.48c1.9,1.09,1.9,3.83,0,4.93l-8.58,4.95-4.28-2.47Z" style="fill: rgb(45, 157, 118);" transform="matrix(1, 0, 0, 1, 130.26193237304685, 185.29624938964844)"/>
+  <path class="cls-2" d="m5.72,19.1l4.27-2.46s0,0,0,0l4.27,2.47s0,0,0,0l8.55-4.94s0,0,0,0l4.27,2.46s0,0,0,.01l-8.55,4.94c-2.65,1.53-5.91,1.53-8.55,0l-4.27-2.47s0,0,0-.01Z" style="fill: url(&quot;#linear-gradient&quot;);" transform="matrix(1, 0, 0, 1, 130.26193237304685, 185.29624938964844)"/>
+  <polygon class="cls-4" points="31.39 4.28 27.11 1.81 22.83 4.28 27.11 6.75 31.39 4.28" style="fill: rgb(88, 89, 91);" transform="matrix(1, 0, 0, 1, 130.26193237304685, 185.29624938964844)"/>
+</svg>
