@@ -1,22 +1,17 @@
 diff --git a/node_modules/fantasticon/lib/generators/asset-types/svg.js b/node_modules/fantasticon/lib/generators/asset-types/svg.js
-index 8dcc6bc..ef42a37 100644
+index 8dcc6bc..a16241d 100644
 --- a/node_modules/fantasticon/lib/generators/asset-types/svg.js
 +++ b/node_modules/fantasticon/lib/generators/asset-types/svg.js
-@@ -17,7 +17,16 @@ const generator = {
+@@ -17,7 +17,11 @@ const generator = {
          for (const { id, absolutePath } of Object.values(assets)) {
              const glyph = (0, fs_1.createReadStream)(absolutePath);
              const unicode = String.fromCharCode(codepoints[id]);
 -            glyph.metadata = { name: id, unicode: [unicode] };
-+            if(ligatures || true) {
-+                console.log('Generating ligature for', id);
-+                let ligature = '';
-+                for (var i = 0; i < id.length; i++) {
-+                    ligature += String.fromCharCode(id.charCodeAt(i));
-+                }
-+                glyph.metadata = { name: ligature, unicode: [unicode, ligature] };
-+            } else {
-+                glyph.metadata = {name: id, unicode: [unicode]};
++            let ligature = '';
++            for (var i = 0; i < id.length; i++) {
++                ligature += String.fromCharCode(id.charCodeAt(i));
 +            }
++            glyph.metadata = { name: ligature, unicode: [unicode, ligature] };
              fontStream.write(glyph);
          }
          fontStream.end();
