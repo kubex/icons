@@ -1,6 +1,18 @@
 {
-    "kount": 61697,
-    "flexpay": 61698,
-    "chargehive": 61699,
-    "adyen": 61700
+    "yapstone": 61697,
+    "worldpay": 61698,
+    "trustpayments": 61699,
+    "tokenex": 61700,
+    "recaptcha": 61701,
+    "qualpay": 61702,
+    "kount": 61703,
+    "gpayments": 61704,
+    "flexpay": 61705,
+    "epx": 61706,
+    "cwams": 61707,
+    "clearhaus": 61708,
+    "checkout": 61709,
+    "chargehive": 61710,
+    "bottomline": 61711,
+    "adyen": 61712
 }

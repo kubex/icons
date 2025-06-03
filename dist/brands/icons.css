@@ -1,8 +1,8 @@
 @font-face {
     font-family: "icons";
-    src: url("./icons.ttf?91d9427ecacef24cd5ea6ebb2b1b3b34") format("truetype"),
-url("./icons.woff2?91d9427ecacef24cd5ea6ebb2b1b3b34") format("woff2"),
-url("./icons.woff?91d9427ecacef24cd5ea6ebb2b1b3b34") format("woff");
+    src: url("./icons.ttf?3db4d5c3ea9617cdc75f0bdb932eb8d6") format("truetype"),
+url("./icons.woff2?3db4d5c3ea9617cdc75f0bdb932eb8d6") format("woff2"),
+url("./icons.woff?3db4d5c3ea9617cdc75f0bdb932eb8d6") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -16,15 +16,51 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-kount:before {
+.icon-yapstone:before {
     content: "\f101";
 }
-.icon-flexpay:before {
+.icon-worldpay:before {
     content: "\f102";
 }
-.icon-chargehive:before {
+.icon-trustpayments:before {
     content: "\f103";
 }
-.icon-adyen:before {
+.icon-tokenex:before {
     content: "\f104";
+}
+.icon-recaptcha:before {
+    content: "\f105";
+}
+.icon-qualpay:before {
+    content: "\f106";
+}
+.icon-kount:before {
+    content: "\f107";
+}
+.icon-gpayments:before {
+    content: "\f108";
+}
+.icon-flexpay:before {
+    content: "\f109";
+}
+.icon-epx:before {
+    content: "\f10a";
+}
+.icon-cwams:before {
+    content: "\f10b";
+}
+.icon-clearhaus:before {
+    content: "\f10c";
+}
+.icon-checkout:before {
+    content: "\f10d";
+}
+.icon-chargehive:before {
+    content: "\f10e";
+}
+.icon-bottomline:before {
+    content: "\f10f";
+}
+.icon-adyen:before {
+    content: "\f110";
 }
