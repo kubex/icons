@@ -38,7 +38,15 @@ async function generateIconFonts()
         templates: {
           'html': path.join(__dirname, 'templates', 'icon-font.html.hbs')
         },
-        normalize: true
+        normalize: true,
+        formatOptions: {
+          svg: {
+            perserveAspectRatio: true,
+            fixedWidth: true,
+            centerHorizontally: true,
+            centerVertically: true,
+          }
+        }
       });
     }
   }
