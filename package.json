@@ -20,7 +20,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf dist && mkdirp dist && node ./build/generate-fonts.js"
+    "build": "rimraf dist && mkdirp dist && node ./build/generate-fonts.js",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "fantasticon": "^3.0.0"
