@@ -1,13 +1,25 @@
 export type IconsId =
-  | "paypal";
+  | "kount"
+  | "flexpay"
+  | "chargehive"
+  | "adyen";
 
 export type IconsKey =
-  | "Paypal";
+  | "Kount"
+  | "Flexpay"
+  | "Chargehive"
+  | "Adyen";
 
 export enum Icons {
-  Paypal = "paypal",
+  Kount = "kount",
+  Flexpay = "flexpay",
+  Chargehive = "chargehive",
+  Adyen = "adyen",
 }
 
 export const ICONS_CODEPOINTS: { [key in Icons]: string } = {
-  [Icons.Paypal]: "61697",
+  [Icons.Kount]: "61697",
+  [Icons.Flexpay]: "61698",
+  [Icons.Chargehive]: "61699",
+  [Icons.Adyen]: "61700",
 };

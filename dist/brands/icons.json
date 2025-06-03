@@ -1,3 +1,6 @@
 {
-    "paypal": 61697
+    "kount": 61697,
+    "flexpay": 61698,
+    "chargehive": 61699,
+    "adyen": 61700
 }

@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Kubex Icons Brands';
+  src: url('./brands/icons.woff2') format('woff2'),
+        url('./brands/icons.woff') format('woff'),
+        url('./brands/icons.ttf') format('truetype');
+      
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Kubex Icons Solid';
+  src: url('./solid/icons.woff2') format('woff2'),
+        url('./solid/icons.woff') format('woff'),
+        url('./solid/icons.ttf') format('truetype');
+      
+  font-weight: normal;
+  font-style: normal;
+}
+
+.kubex-icon-brands {
+  font-family: 'Kubex Icons Brands';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.kubex-icon-solid {
+  font-family: 'Kubex Icons Solid';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
