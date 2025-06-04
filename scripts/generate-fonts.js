@@ -34,17 +34,14 @@ async function generateIconFonts()
       await generateFonts({
         inputDir,
         outputDir,
-        fontTypes: ['ttf', 'woff2', 'woff'],
-        templates: {
+        fontTypes:     ['ttf', 'woff2', 'woff'],
+        templates:     {
           'html': path.join(__dirname, 'templates', 'icon-font.html.hbs')
         },
-        normalize: true,
+        normalize:     true,
         formatOptions: {
           svg: {
-            perserveAspectRatio: true,
-            fixedWidth: true,
-            centerHorizontally: true,
-            centerVertically: true,
+            perserveAspectRatio: true
           }
         }
       });
@@ -87,8 +84,7 @@ async function createCssFile()
 }
 
 generateIconFonts()
-  .then(() =>
-  {
+  .then(() => {
     console.log('Icon fonts generated successfully.');
     return createCssFile();
   })
