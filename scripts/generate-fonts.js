@@ -36,12 +36,13 @@ async function generateIconFonts()
         outputDir,
         fontTypes:     ['ttf', 'woff2', 'woff'],
         templates:     {
-          'html': path.join(__dirname, 'templates', 'icon-font.html.hbs')
+          'html': path.join(__dirname, 'templates', 'icon-font.html.hbs'),
+          'css': path.join(__dirname, 'templates', 'icon-font.css.hbs')
         },
         normalize:     true,
         formatOptions: {
           svg: {
-            perserveAspectRatio: true
+            preserveAspectRatio: true
           }
         }
       });

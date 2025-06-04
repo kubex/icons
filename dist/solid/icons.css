@@ -1,21 +1,17 @@
 @font-face {
-    font-family: "icons";
-    src: url("./icons.ttf?a9f983989c82df720bc2deece7b11ffd") format("truetype"),
-url("./icons.woff2?a9f983989c82df720bc2deece7b11ffd") format("woff2"),
-url("./icons.woff?a9f983989c82df720bc2deece7b11ffd") format("woff");
+  font-family: "icons";
+  src: url("./icons.ttf?199799640796cc5a31f936ada52e9582") format("truetype"),
+url("./icons.woff2?199799640796cc5a31f936ada52e9582") format("woff2"),
+url("./icons.woff?199799640796cc5a31f936ada52e9582") format("woff");
 }
 
-i[class^="icon-"]:before, i[class*=" icon-"]:before {
-    font-family: icons !important;
-    font-style: normal;
-    font-weight: normal !important;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-house:before {
-    content: "\f101";
+i[class^="icon"] {
+  font-family: icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
