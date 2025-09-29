@@ -12,6 +12,7 @@ export type IconsId =
   | "cwams"
   | "clearhaus"
   | "checkout"
+  | "chargie"
   | "chargehive"
   | "bottomline"
   | "adyen";
@@ -30,6 +31,7 @@ export type IconsKey =
   | "Cwams"
   | "Clearhaus"
   | "Checkout"
+  | "Chargie"
   | "Chargehive"
   | "Bottomline"
   | "Adyen";
@@ -48,6 +50,7 @@ export enum Icons {
   Cwams = "cwams",
   Clearhaus = "clearhaus",
   Checkout = "checkout",
+  Chargie = "chargie",
   Chargehive = "chargehive",
   Bottomline = "bottomline",
   Adyen = "adyen",
@@ -67,7 +70,8 @@ export const ICONS_CODEPOINTS: { [key in Icons]: string } = {
   [Icons.Cwams]: "61707",
   [Icons.Clearhaus]: "61708",
   [Icons.Checkout]: "61709",
-  [Icons.Chargehive]: "61710",
-  [Icons.Bottomline]: "61711",
-  [Icons.Adyen]: "61712",
+  [Icons.Chargie]: "61710",
+  [Icons.Chargehive]: "61711",
+  [Icons.Bottomline]: "61712",
+  [Icons.Adyen]: "61713",
 };
