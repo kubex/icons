@@ -24,7 +24,7 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
-    "fantasticon": "^3.0.0",
+    "fantasticon": "^4.1.0",
     "imagemagick": "^0.1.3"
   },
   "devDependencies": {
